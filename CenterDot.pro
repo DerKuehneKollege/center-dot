@@ -1,22 +1,17 @@
-#-------------------------------------------------
-#
-# Project created by QtCreator 2015-11-07T18:06:11
-#
-#-------------------------------------------------
-
-VERSION = 1.0.2
+VERSION = 1.1.0
 QMAKE_TARGET_COMPANY = "Atomkraftzwerg"
 QMAKE_TARGET_PRODUCT = "CenterDot"
 QMAKE_TARGET_DESCRIPTION = "Shows a centered crosshair as a layer above your game."
-QMAKE_TARGET_COPYRIGHT = "(c) 2016 Atomkraftzwerg"
+QMAKE_TARGET_COPYRIGHT = "(c) 2019 Atomkraftzwerg"
 
 QT += core gui
-
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = CenterDot
 TEMPLATE = app
 RC_FILE = src/centerdot.rc
+
+CONFIG += static
 
 SOURCES += src/main.cpp\
     src/mainwindow.cpp \

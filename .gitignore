@@ -1,9 +1,38 @@
-# C++ objects and libs
+# Covers JetBrains IDEs and QtCreator
+# Reference (JetBrains): https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# CMake
+cmake-build-*/
+.idea/.name
+.idea/misc.xml
+.idea/modules.xml
+.idea/qclockie.iml
+.idea/vcs.xml
+bin/
+
+# C++ objects and libs
 *.slo
 *.lo
 *.o
-*.a
 *.la
 *.lai
 *.so
@@ -11,7 +40,6 @@
 *.dylib
 
 # Qt-es
-
 /.qmake.cache
 /.qmake.stash
 *.pro.user
@@ -19,21 +47,16 @@
 *.qbs.user
 *.qbs.user.*
 *.moc
-moc_*.cpp
-moc_*.h
 qrc_*.cpp
 ui_*.h
 Makefile*
-*build-*
 
 # QtCreator
-
 *.autosave
 
 # QtCtreator Qml
 *.qmlproject.user
 *.qmlproject.user.*
 
-# QtCtreator CMake
+# QtCreator CMake
 CMakeLists.txt.user*
-
